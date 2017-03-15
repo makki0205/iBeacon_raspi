@@ -6,10 +6,3 @@ var minor = 50;
 var measuredPower = -59;
 
 Bleacon.startAdvertising(uuid, major, minor, measuredPower);
-
-// Bleacon = require('bleacon');
-// Bleacon.startScanning();
-//
-// Bleacon.on('discover', function(bleacon) {
-//    console.dir(bleacon);
-// });
